@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      alert("Hello");
+      alert("world");
+
+      //   변수: 사용자나 서버로부터 입력받은 정보를 처리하는 저장소
+      let message;
+      // 변수명에 message외에 name 등 다른 변수명 입력가능
+      // 만약 똑같은 변수명을 여러번 선언하면 에러가 발생한다
+      // 변수명에는 문자(주로 영어), 숫자, 기호 $,_만 사용가능하다
+      // 단 첫글자는 숫자가 될 수 없다.
+      // 대소문자를 구분해야 한다.HEllo와 hello는 같지 않다.
+      // 예약어는 변수명으로 사용할 수 없다.스크립트 내부에서 이미 사용중이므로!
+      // 예악어 예시: let, class, return, function
+      message = "Hello2";
+      alert(message);
+
+      //   상수(const):변화하지 않는 변수에 사용
+
+      const today = "2023.08.05";
+      let day = today;
+      alert(day);
+
+      let name = "john";
+      let admin;
+      admin = name;
+      alert(admin);
+    </script>
+  </body>
+</html>
